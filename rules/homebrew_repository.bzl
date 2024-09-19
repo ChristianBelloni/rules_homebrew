@@ -72,7 +72,7 @@ def _homebrew_repository_impl(ctx):
         "",
         url_sha,
         "",
-        "brew-%s" % tag,
+        "brew-2.1.4",
     )
 
     homebrew_core_commit = ctx.attr.homebrew_core_commit
